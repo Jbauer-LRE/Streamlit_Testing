@@ -12,7 +12,7 @@ import numpy as np
 #import matplotlib.pyplot as plt
 
 
-st.write ("hello joel")
+st.write ("PRACTICE EXAMPLE")
 st.write ("hi dave")
 
 
