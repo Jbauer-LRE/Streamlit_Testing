@@ -18,6 +18,10 @@ st.write ("hi dave")
 data= pd.read_csv('data.csv', index_col=0) 
 data =st.dataframe(data)
 
-print (data)
+df = pd.DataFrame(
+   np.random.randn(50, 20),
+   columns=('col %d' % i for i in range(20)))
 
-print ("new test")
+st.dataframe(df)  # Same as st.write(df)
+
+print (df)
