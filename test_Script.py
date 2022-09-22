@@ -65,7 +65,7 @@ urf_df=(pd.DataFrame({
     'URF8': [0, 0, 10, 10],
        
 }))
-stf.write(urf_df)
+st.write(urf_df)
 
 urf_arr=urf_df.iloc[0:10,1:9]
 urf_arr=np.array(urf_arr)
