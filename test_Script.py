@@ -15,4 +15,4 @@ import pandas as pd
 st.write ("hello joel")
 st.write ("hi dave")
 
-data= pd.read_csv('df_sample_data.csv', index_col=0) 
+data= pd.read_csv('data.csv', index_col=0) 
