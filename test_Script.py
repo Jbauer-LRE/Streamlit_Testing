@@ -16,3 +16,6 @@ st.write ("hello joel")
 st.write ("hi dave")
 
 data= pd.read_csv('data.csv', index_col=0) 
+
+print (data)
+
