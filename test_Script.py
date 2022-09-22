@@ -47,6 +47,7 @@ bal_df=(pd.DataFrame({
 
 
  }))
+st.write(bal_df)
 bal_df=bal_df.T
 bal_arr=np.array(bal_df.iloc[1:9])
 
@@ -62,9 +63,9 @@ urf_df=(pd.DataFrame({
     'URF6': [0,   0, 10, 10],
     'URF7': [0,  0, 10, 10],
     'URF8': [0, 0, 10, 10],
-    
-    
+       
 }))
+stf.write(urf_df)
 
 urf_arr=urf_df.iloc[0:10,1:9]
 urf_arr=np.array(urf_arr)
