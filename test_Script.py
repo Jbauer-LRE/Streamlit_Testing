@@ -16,10 +16,9 @@ st.write ("hello joel")
 st.write ("hi dave")
 
 
-df = pd.DataFrame(
-   np.random.randn(50, 20),
-   columns=('col %d' % i for i in range(20)))
 
-st.dataframe(df)  # Same as st.write(df)
 
-print (df)
+st.dataframe(pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40]
+}))
