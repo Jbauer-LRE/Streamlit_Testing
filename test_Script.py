@@ -33,7 +33,7 @@ st.write ("hi dave")
 # }))
 
 
-
+st.write("Mitigation balances")
 bal_df=(pd.DataFrame({
      'GMD': ["American Falls- Aberdeen","Bingham","Bonneville-Jefferson","Jefferson-Clark"],
      'Balance1': [1000, 0, 500, 10],
@@ -52,7 +52,7 @@ bal_df=bal_df.T
 bal_arr=np.array(bal_df.iloc[1:9])
 
 
-
+st.write("Urfs")
 urf_df=(pd.DataFrame({
     'GMD': ["American Falls- Aberdeen","Bingham","Bonneville-Jefferson","Jefferson-Clark"],
     'URF1': [10, 0, 0, 10,],
