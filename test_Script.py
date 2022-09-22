@@ -19,6 +19,13 @@ st.write ("hi dave")
 
 
 st.dataframe(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
+    'GMD': ["American Falls- Aberdeen","Bingham","Bonneville-Jefferson","Jefferson-Clark"],
+    'Balance': [0, 20, 30, 40]
 }))
+
+st.dataframe(pd.DataFrame({
+    'GMD': ["American Falls- Aberdeen","Bingham","Bonneville-Jefferson","Jefferson-Clark"],
+    'Balance': [0, 20, 30, 40]
+}))
+
+[reaches]='Reach':["Milner to King Hill","Neeley-Minidoka","nr Blackfoot-Neeley","shelly-nr Blackfoot",'Heise-Shelly","Ashton-Rexburg"]
