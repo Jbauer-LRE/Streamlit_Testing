@@ -50,6 +50,7 @@ bal_df=(pd.DataFrame({
 
  }))
 st.write(bal_df)
+AgGrid(bal_df)
 bal_df=bal_df.T
 bal_arr=np.array(bal_df.iloc[1:9])
 
