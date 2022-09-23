@@ -57,7 +57,7 @@ gb = GridOptionsBuilder.from_dataframe(bal_df)
 gridOptions = gb.build()
 
 grid_response = AgGrid(
-    data,
+    bal_df,
     gridOptions=gridOptions,
     data_return_mode='AS_INPUT', 
     update_mode='MODEL_CHANGED', 
