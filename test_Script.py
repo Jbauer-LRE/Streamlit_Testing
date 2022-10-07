@@ -3,15 +3,13 @@ import pandas as pd
 import streamlit as st
 st.set_page_config(layout="wide")
 
-import flopy as fp
 import os
 from flopy.utils.zonbud import ZoneBudget
 import numpy as np
 from st_aggrid import AgGrid, DataReturnMode, GridUpdateMode, GridOptionsBuilder
-import plotly.graph_objs as go
 
-import chart_studio as py # interactive graphing
-from plotly.graph_objs import Bar, Scatter, Marker, Layout 
+
+
 
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -225,10 +223,3 @@ plt.cla()
 # incremental, cumulative = mf_list.get_budget()
 # df_inc, df_cumulative = mf_list.get_dataframes()
 
-
-
-st.markdown("## Party time!")
-st.write("Yay! You're done with this tutorial of Streamlit. Click below to celebrate.")
-btn = st.button("Celebrate!")
-if btn:
-    st.balloons()
