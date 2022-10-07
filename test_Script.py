@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st
 st.set_page_config(layout="wide")
-import plotly 
+
 import flopy as fp
 import os
 from flopy.utils.zonbud import ZoneBudget
